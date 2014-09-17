@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "websocketd_buildpack"
+exit 0

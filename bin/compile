@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PATH=$PATH:$HOME:$HOME/app:$HOME/app/websocketd
+export PATH
+
+BUILDPACK_PATH=$(cd $(dirname $0); cd ..; pwd)
+BUILD_DIR=$1
+
+cp -r $BUILDPACK_PATH/websocketd $BUILD_DIR
