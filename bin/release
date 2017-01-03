@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  web: /app/websocketd/websocketd --port=$VCAP_APP_PORT --devconsole --dir=/app/websocketd
+  web: /app/websocketd/websocketd --port=$PORT --devconsole --dir=/app/websocketd
 EOF
